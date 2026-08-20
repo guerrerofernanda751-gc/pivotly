@@ -1,3 +1,5 @@
+import SupabaseStatus from "@/components/SupabaseStatus";
+
 const navLinks = [
   { label: "How it works", href: "#how-it-works" },
   { label: "Tools", href: "#tools" },
@@ -99,6 +101,7 @@ export default function Home() {
           <p className="mt-4 text-xs text-black/40">
             Diagnosis flow is coming soon — this button is a placeholder for now.
           </p>
+          <SupabaseStatus />
         </div>
 
         {/* Traffic light preview card */}
