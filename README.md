@@ -46,3 +46,4 @@ This week's scope is intentionally limited to the project shell:
 
 Not in scope yet: the real diagnosis questionnaire, price calculator logic,
 authentication, or any live database reads/writes.
+Week 0 status: homepage, navigation, and Supabase connection verified live on the deployed site.
