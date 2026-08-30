@@ -2,7 +2,7 @@ import SupabaseStatus from "@/components/SupabaseStatus";
 
 const navLinks = [
   { label: "How it works", href: "#how-it-works" },
-  { label: "Tools", href: "#tools" },
+  { label: "Tools", href: "/core" },
   { label: "Roadmap", href: "#roadmap" },
 ];
 
@@ -18,6 +18,7 @@ const tools = [
     title: "Price calculator",
     description:
       "Find out if you're charging enough to cover your costs and actually make a profit.",
+    href: "/core",
   },
   {
     number: "03",
@@ -92,7 +93,7 @@ export default function Home() {
             A simple diagnosis to understand what your business needs — no
             advanced financial knowledge required.
           </p>
-          <a
+          
             href="#how-it-works"
             className="mt-8 inline-block rounded-lg bg-forest px-6 py-3 text-white transition hover:bg-forest-dark"
           >
@@ -138,17 +139,29 @@ export default function Home() {
             the right tools and lessons for where your business is right now.
           </p>
           <div className="mt-12 grid gap-8 sm:grid-cols-3">
-            {tools.map((tool) => (
-              <div key={tool.number}>
-                <span className="font-display text-2xl text-forest-light">
-                  {tool.number}
-                </span>
-                <h3 className="mt-3 text-lg font-semibold text-black">
-                  {tool.title}
-                </h3>
-                <p className="mt-2 text-sm text-black/60">{tool.description}</p>
-              </div>
-            ))}
+            {tools.map((tool) => {
+              const Tag = tool.href ? "a" : "div";
+              return (
+                <Tag
+                  key={tool.number}
+                  href={tool.href}
+                  className={tool.href ? "block transition hover:opacity-70" : undefined}
+                >
+                  <span className="font-display text-2xl text-forest-light">
+                    {tool.number}
+                  </span>
+                  <h3 className="mt-3 text-lg font-semibold text-black">
+                    {tool.title}
+                  </h3>
+                  <p className="mt-2 text-sm text-black/60">{tool.description}</p>
+                  {tool.href && (
+                    <span className="mt-2 inline-block text-xs font-medium text-forest">
+                      Try it →
+                    </span>
+                  )}
+                </Tag>
+              );
+            })}
           </div>
         </div>
       </section>
