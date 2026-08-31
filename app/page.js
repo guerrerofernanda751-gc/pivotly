@@ -93,7 +93,7 @@ export default function Home() {
             A simple diagnosis to understand what your business needs — no
             advanced financial knowledge required.
           </p>
-          
+          <a 
             href="#how-it-works"
             className="mt-8 inline-block rounded-lg bg-forest px-6 py-3 text-white transition hover:bg-forest-dark"
           >
