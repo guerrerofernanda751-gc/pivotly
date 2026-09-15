@@ -51,6 +51,7 @@ export default function Research() {
         <p className="mt-4 max-w-xl text-black/60">
           A look at how small business owners in Mexico currently handle
           pricing and financial confusion, and where Pivotly fits.
+          Includes 5 global examples and 8 local competitors/substitutes.
         </p>
       </section>
 
