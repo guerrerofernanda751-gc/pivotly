@@ -48,3 +48,4 @@ Not in scope yet: the real diagnosis questionnaire, price calculator logic,
 authentication, or any live database reads/writes.
 Week 0 status: homepage, navigation, and Supabase connection verified live on the deployed site.
 Week 1 status: /core price calculator built, connected to Supabase, and verified live.
+Week 2 status: /research page built with competitor table, filter/search, benchmark cards, risk map, and Supabase-backed research sessions.
