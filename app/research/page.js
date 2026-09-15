@@ -23,9 +23,14 @@ export default function Research() {
                 </a>
               </li>
             ))}
-            <li>
+              <li>
               <a href="/docs" className="hover:text-forest">
                 Docs
+              </a>
+            </li>
+            <li>
+              <a href="/research" className="hover:text-forest">
+                Research
               </a>
             </li>
           </ul>
