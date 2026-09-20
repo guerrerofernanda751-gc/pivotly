@@ -146,7 +146,7 @@ export default function ResearchDashboard() {
     const { error } = await supabase.from("research_sessions").insert({
       business_type: businessType.trim(),
       notes: notes.trim() || null,
-      competitors_reviewed: COMPETITORS.length,
+      competitors_reviewed: filtered.length,
     });
 
     if (error) {
