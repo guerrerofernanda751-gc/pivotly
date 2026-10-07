@@ -1,5 +1,6 @@
 const SEGMENTS = [
   {
+    icon: "🧭",
     title: "Business just getting started",
     description:
       "Just launched, low and irregular sales, very tight budget. Still doesn't know if the business is profitable.",
@@ -10,6 +11,7 @@ const SEGMENTS = [
     ],
   },
   {
+    icon: "📈",
     title: "Established business looking to grow",
     description:
       "Already has steady sales and some track record, but still doesn't fully understand margins or what to charge.",
@@ -29,7 +31,8 @@ export default function CustomerSegments() {
           key={s.title}
           className="rounded-2xl border border-black/5 bg-white p-6 shadow-sm"
         >
-          <h3 className="font-display text-xl text-black">{s.title}</h3>
+          <span className="text-3xl">{s.icon}</span>
+          <h3 className="mt-3 font-display text-xl text-black">{s.title}</h3>
           <p className="mt-2 text-sm text-black/60">{s.description}</p>
           <ul className="mt-4 space-y-2 text-sm text-black/70">
             {s.bullets.map((b) => (
