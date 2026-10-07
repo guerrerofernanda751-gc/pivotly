@@ -78,6 +78,21 @@ export default function Home() {
                 Research
               </a>
             </li>
+                          <li>
+              <a href="/research" className="hover:text-forest">
+                Research
+              </a>
+            </li>
+            <li>
+              <a href="/product" className="hover:text-forest">
+                Product
+              </a>
+            </li>
+            <li>
+              <a href="/pricing" className="hover:text-forest">
+                Pricing
+              </a>
+            </li>
           </ul>
           <span className="rounded-full border border-black/10 px-4 py-1.5 text-sm text-black/40">
             Log in
