@@ -1,22 +1,22 @@
 const SEGMENTS = [
   {
-    title: "Negocio que apenas empieza",
+    title: "Business just getting started",
     description:
-      "Acaba de arrancar, ventas bajas e irregulares, presupuesto muy ajustado. Todavía no sabe si su negocio es rentable.",
+      "Just launched, low and irregular sales, very tight budget. Still doesn't know if the business is profitable.",
     bullets: [
-      "Necesita el diagnóstico financiero básico",
-      "Probablemente se queda en el tier Compass (gratis) por un tiempo",
-      "Prioriza entender sus números antes que pagar por herramientas",
+      "Needs the basic financial diagnosis",
+      "Likely stays on the Compass (free) tier for a while",
+      "Prioritizes understanding their numbers over paying for tools",
     ],
   },
   {
-    title: "Negocio ya establecido buscando crecer",
+    title: "Established business looking to grow",
     description:
-      "Ya tiene ventas estables y cierta trayectoria, pero sigue sin entender bien sus márgenes o cuánto debería cobrar.",
+      "Already has steady sales and some track record, but still doesn't fully understand margins or what to charge.",
     bullets: [
-      "Más dispuesto a pagar por herramientas que le ahorren tiempo",
-      "Es el candidato natural para los tiers Pivot o Momentum",
-      "Valora el historial, los cursos y los reportes descargables",
+      "More willing to pay for tools that save time",
+      "The natural candidate for the Pivot or Momentum tiers",
+      "Values history, courses, and downloadable reports",
     ],
   },
 ];
