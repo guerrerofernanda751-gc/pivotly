@@ -115,7 +115,7 @@ export default function Home() {
             Start my diagnosis
           </a>
           <p className="mt-4 text-xs text-black/40">
-            Diagnosis flow is coming soon — this button is a placeholder for now.
+          Free diagnosis, launching soon.       
           </p>
           <SupabaseStatus />
         </div>
