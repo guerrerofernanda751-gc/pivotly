@@ -102,11 +102,11 @@ export default function Home() {
             For small business owners in Mexico
           </p>
           <h1 className="font-display text-4xl leading-tight text-black sm:text-5xl">
-            Understand your numbers and make better decisions
+            Are you really making money, or does it just look like it?
           </h1>
           <p className="mt-6 max-w-md text-lg text-black/60">
-            A simple diagnosis to understand what your business needs — no
-            advanced financial knowledge required.
+           Pivotly helps small shops, cafés and salons in Mexico see their real numbers and set 
+           the right prices, no accounting degree needed.
           </p>
           <a 
             href="#how-it-works"
