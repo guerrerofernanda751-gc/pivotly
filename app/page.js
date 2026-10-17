@@ -108,14 +108,14 @@ export default function Home() {
            Pivotly helps small shops, cafés and salons in Mexico see their real numbers and set 
            the right prices, no accounting degree needed.
           </p>
-          <a 
-            href="#how-it-works"
-            className="mt-8 inline-block rounded-lg bg-forest px-6 py-3 text-white transition hover:bg-forest-dark"
-          >
-            Start my diagnosis
-          </a>
+          <a
+           href="/core"
+           className="mt-8 inline-block rounded-lg bg-forest px-6 py-3 text-white transition hover:bg-forest-dark"
+           >
+           Try the price calculator
+           </a>
           <p className="mt-4 text-xs text-black/40">
-          Free diagnosis, launching soon.       
+           Free to use. Full diagnosis launching soon.       
           </p>
           <SupabaseStatus />
         </div>
