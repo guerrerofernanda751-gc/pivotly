@@ -78,11 +78,6 @@ export default function Home() {
                 Research
               </a>
             </li>
-                          <li>
-              <a href="/research" className="hover:text-forest">
-                Research
-              </a>
-            </li>
             <li>
               <a href="/product" className="hover:text-forest">
                 Product
