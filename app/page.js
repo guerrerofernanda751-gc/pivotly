@@ -29,11 +29,11 @@ const tools = [
 ];
 
 const roadmap = [
-  {
-    stage: "This week",
-    title: "Builder infrastructure",
+    {
+    stage: "Done",
+    title: "Core product built",
     description:
-      "Live site, navigation, and project foundation — the page you're looking at right now.",
+      "The price calculator, competitor research, and pricing pages are live. Try them from the menu.",
     status: "current",
   },
   {
@@ -43,10 +43,10 @@ const roadmap = [
       "The real questionnaire that produces your Stable / Review / Attention result.",
     status: "upcoming",
   },
-  {
+    {
     stage: "Later",
-    title: "Price calculator & courses",
-    description: "Practical tools and short lessons matched to each diagnosis result.",
+    title: "Courses and lessons",
+    description: "Short, plain-language lessons matched to each diagnosis result.",
     status: "upcoming",
   },
 ];
