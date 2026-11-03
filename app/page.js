@@ -1,5 +1,6 @@
 import SupabaseStatus from "@/components/SupabaseStatus";
 import { FamiliarSection, ClosingBand } from "@/components/HomeExtras";
+import ChatBubble from "@/components/ChatBubble";
 
 const navLinks = [
   { label: "How it works", href: "#how-it-works" },
@@ -212,6 +213,7 @@ export default function Home() {
         </div>
       </section>
     <ClosingBand />
+      <ChatBubble />
             
       {/* Footer */}
       <footer className="border-t border-black/5">
