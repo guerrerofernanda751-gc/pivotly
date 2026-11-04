@@ -302,6 +302,13 @@ export default function ChatAssistant() {
           Send
         </button>
       </form>
+         <button
+        type="button"
+        onClick={restart}
+        className="mt-3 text-sm text-forest underline"
+      >
+        Start over
+      </button>
       <p className="mt-3 text-xs text-black/40">
         This assistant follows simple rules. It is not AI-generated and it does not give financial,
         tax or legal advice.
