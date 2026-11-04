@@ -26,6 +26,12 @@ const PAGE_NAMES = {
   "/marketing": "the marketing page",
 };
 
+const PAGE_REASONS = {
+  "/core": "It shows if your prices cover your costs and leave you a profit.",
+  "/research": "It helps you compare your business with others like it.",
+  "/pricing": "It explains what each Pivotly plan includes and what it costs.",
+  "/marketing": "It gives you ready-to-use posts and ideas to attract customers.",
+};
 const QUESTIONS = {
   business: "1. What type of business do you have?",
   goal: "2. What do you want to do today?",
@@ -130,7 +136,7 @@ export default function ChatAssistant() {
     }
     const page = pageFor(a.goal);
     const items = [
-      makeMsg("bot", "Based on your answers, I recommend " + PAGE_NAMES[page] + ".", {
+        makeMsg("bot", "Based on your answers, I recommend " + PAGE_NAMES[page] + ". " + PAGE_REASONS[page], {
         link: { href: page, label: "Open " + PAGE_NAMES[page] },
       }),
     ];
