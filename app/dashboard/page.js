@@ -19,7 +19,7 @@ const TOOLS = [
     href: "/core",
     detail: (rows) => {
       const key = rows[0] && Object.keys(rows[0]).find((k) => k.includes("suggest"));
-      return key && rows[0][key] != null ? "Last suggested price: " + rows[0][key] : null;
+          return key && rows[0][key] != null ? "Last suggested price: $" + Number(rows[0][key]).toFixed(2) : null;
     },
   },
   {
