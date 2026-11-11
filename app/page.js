@@ -7,6 +7,9 @@ const navLinks = [
   { label: "Tools", href: "/core" },
   { label: "Roadmap", href: "#roadmap" },
   { label: "Marketing", href: "/marketing" },
+  { label: "Demo", href: "/demo" },
+  { label: "Dashboard", href: "/dashboard" },
+  { label: "Docs", href: "/docs" },
 ];
 
 const tools = [
