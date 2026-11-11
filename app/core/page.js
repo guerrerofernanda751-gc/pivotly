@@ -4,6 +4,12 @@ const navLinks = [
   { label: "How it works", href: "/#how-it-works" },
   { label: "Tools", href: "/#tools" },
   { label: "Roadmap", href: "/#roadmap" },
+  { label: "Marketing", href: "/marketing" },
+  { label: "Demo", href: "/demo" },
+  { label: "Dashboard", href: "/dashboard" },
+  { label: "Research", href: "/research" },
+  { label: "Product", href: "/product" },
+  { label: "Pricing", href: "/pricing" },
 ];
 
 export default function Core() {
