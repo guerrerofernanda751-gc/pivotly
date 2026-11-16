@@ -5,6 +5,9 @@ const navLinks = [
   { label: "How it works", href: "/#how-it-works" },
   { label: "Tools", href: "/core" },
   { label: "Roadmap", href: "/#roadmap" },
+  { label: "Marketing", href: "/marketing" },
+  { label: "Demo", href: "/demo" },
+  { label: "Dashboard", href: "/dashboard" },
 ];
 
 export default function Product() {
