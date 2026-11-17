@@ -7,8 +7,12 @@ const navLinks = [
   { label: "How it works", href: "/#how-it-works" },
   { label: "Tools", href: "/core" },
   { label: "Roadmap", href: "/#roadmap" },
+  { label: "Marketing", href: "/marketing" },
   { label: "Demo", href: "/demo" },
   { label: "Dashboard", href: "/dashboard" },
+  { label: "Research", href: "/research" },
+  { label: "Product", href: "/product" },
+  { label: "Pricing", href: "/pricing" },
 ];
 
 // Each card reads one Supabase table. "detail" builds one short line from the saved rows.
