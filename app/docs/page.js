@@ -2,9 +2,15 @@ import Link from "next/link";
 
 const links = [
   ["Home", "/"],
+  ["How it works", "/#how-it-works"],
+  ["Tools", "/core"],
+  ["Marketing", "/marketing"],
   ["Chat", "/chat"],
   ["Demo", "/demo"],
   ["Dashboard", "/dashboard"],
+  ["Research", "/research"],
+  ["Product", "/product"],
+  ["Pricing", "/pricing"],
   ["Docs", "/docs"],
 ];
 
