@@ -8,8 +8,6 @@ const navLinks = [
   { label: "Marketing", href: "/marketing" },
   { label: "Demo", href: "/demo" },
   { label: "Dashboard", href: "/dashboard" },
-  { label: "Research", href: "/research" },
-  { label: "Product", href: "/product" },
 ];
 
 export default function Pricing() {
