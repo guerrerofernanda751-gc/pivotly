@@ -75,9 +75,10 @@ const TOOLS = [
 
 // Update this list after the testing is done.
 const TESTING = [
-  "3 external users tested the guided chat in Week 5. Two problems were found and fixed.",
-  "Full-site regression test: every page is opened and checked.",
-  "External users total for the final product: 5.",
+  "Full-site regression test: all 10 pages were opened and checked. 5 menu bugs were found and fixed.",
+  "5 external users tested the final product: Cristian, Layla, Yuli, Mishell and Alexis.",
+  "3 ideas were built in the demo page: a Best if line for each step, a café example and a short intro.",
+  "Charts and more languages were saved for Version 2.",
 ];
 
 function formatDate(value) {
