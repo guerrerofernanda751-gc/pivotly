@@ -18,42 +18,42 @@ const STEPS = [
   {
     title: "Start here",
     pivi: "Hi! Not sure where to start? Tell me about your business.",
-    text: "Answer 3 quick questions and the assistant points you to the right tool.",
+    text: "Answer 3 quick questions and the assistant points you to the right tool. Best if you are not sure where to start.",
     href: "/chat",
     button: "Open the chat",
   },
   {
     title: "Set your price",
     pivi: "Let's find a price that covers your costs.",
-    text: "Enter your costs and see a suggested price and a health signal.",
+    text: "Enter your costs and see a suggested price and a health signal. Best if you want to know if your price covers your costs.",
     href: "/core",
     button: "Open the calculator",
   },
   {
     title: "See your market",
     pivi: "You are not alone. Let's look at businesses like yours.",
-    text: "Compare your business with others like it.",
+    text: "Compare your business with others like it. Best if you want to know who your competitors are.",
     href: "/research",
     button: "Open research",
   },
   {
     title: "Plan your plan",
     pivi: "Here is how Pivotly itself makes money.",
-    text: "See Pivotly's plans and how the business model works.",
+    text: "See Pivotly's plans and how the business model works. Best if you want to know what each plan includes.",
     href: "/pricing",
     button: "Open pricing",
   },
   {
     title: "Get customers",
     pivi: "Now let's tell people about your business.",
-    text: "Ready-to-use posts, video scripts and a 14-day calendar.",
+    text: "Ready-to-use posts, video scripts and a 14-day calendar. Best if you need ideas to find customers.",
     href: "/marketing",
     button: "Open marketing",
   },
   {
     title: "See it all saved",
     pivi: "Everything you saved is in one place.",
-    text: "All your saved work from every tool, in one page.",
+    text: "All your saved work from every tool, in one page. Best if you want to see everything you did.",
     href: "/dashboard",
     button: "Open the dashboard",
   },
@@ -181,9 +181,29 @@ export default function Demo() {
             </button>
           </div>
         </div>
+       </section>
+        {/* Example */}
+      <section className="mx-auto max-w-6xl px-6 pb-16">
+        <h2 className="font-display text-2xl text-forest">An example: a small café</h2>
+        <p className="mt-2 max-w-xl text-sm text-black/60">
+          See how one owner can use all the tools together. Each result helps in the next step.
+        </p>
+        <ol className="mt-6 space-y-3">
+          {[
+            "Ana has a small café. She opens the chat and tells Pivi about her business.",
+            "She enters her costs in the price calculator and gets a suggested price.",
+            "She uses that price in Research to compare with other cafés near her.",
+            "She uses the marketing tool to get posts and a 14-day calendar.",
+            "She opens the dashboard and sees all her saved results in one place.",
+          ].map((line, i) => (
+            <li key={i} className="flex gap-4 rounded-xl border border-black/5 bg-white px-5 py-3 text-sm text-black/70">
+              <span className="font-medium text-forest">{i + 1}</span>
+              <span>{line}</span>
+            </li>
+          ))}
+        </ol>
       </section>
-
-      {/* Agent map */}
+ {/* Agent map */}
       <section className="mx-auto max-w-6xl px-6 pb-16">
         <h2 className="font-display text-2xl text-forest">Agent map</h2>
         <p className="mt-2 max-w-xl text-sm text-black/60">
