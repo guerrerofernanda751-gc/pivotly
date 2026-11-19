@@ -126,7 +126,8 @@ export default function Demo() {
           See Pivotly in 2 minutes
         </h1>
         <p className="mt-4 max-w-xl text-black/60">
-          Follow the 6 steps. Each one opens a real tool that is already live.
+          Pivotly helps small business owners set a price, study their market and find customers. Follow the 6 steps below. Each one opens a real tool that is already live.
+      
         </p>
       </section>
 
